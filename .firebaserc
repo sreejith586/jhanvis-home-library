@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "jhanvi-home-library-751e0"
+  },
+  "targets": {
+    "jhanvi-home-library-751e0": {
+      "hosting": {
+        "production": [
+          "jhanvi-home-library-751e0"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

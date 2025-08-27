@@ -1,0 +1,47 @@
+.recommended-container {
+  padding: 1rem;
+  background: #fdfdfd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.recommended-container h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.recommended-container .scroll-wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  padding: 0.5rem;
+  background-color:#fffeee;
+}
+
+.recommended-container .book-card {
+  max-width: 150px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 0px;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #555;
+}
